@@ -1,0 +1,18 @@
+urls:
+  sony_uk:
+    rest_params:
+      script: logData 1 ||
+              navigate http://www.sony.co.uk ||
+              sleep 3 ||
+              navigate http://www.sony.co.uk/electronics/cameras ||
+              sleep 3 ||
+      location: Ireland_Chrome_Firefox_Safari
+      browser: Chrome
+      connectivity: Cable
+      runs: 1
+      label: <replace>
+      fvonly: 1
+      video: 0
+      pngss: 1
+      mobile: 0
+      timeline: 1

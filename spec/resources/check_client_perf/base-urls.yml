@@ -1,0 +1,11 @@
+urls:
+  sony_uk:
+    home_page:
+      expected_sla:
+        time_to_first_byte_ms: 2509
+        time_to_start_render_ms: 5500
+        dom_content_ready_end:
+          red: 5000
+          green: 3000
+        doc_complete_time_ms: 11000
+        bytes_in: 3500000

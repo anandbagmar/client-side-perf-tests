@@ -1,0 +1,4 @@
+--format html
+--out monitoring_test_results/rspec_results.html
+--format p
+--color

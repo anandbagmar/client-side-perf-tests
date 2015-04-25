@@ -1,0 +1,9 @@
+.idea
+results
+.gems
+Gemfile.lock
+monitoring_test_results
+VERSION
+manifest.txt
+*.zip
+tmp

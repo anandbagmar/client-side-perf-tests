@@ -1,0 +1,4 @@
+wpt_server:
+  wpt_server_address: <WPT_SERVER_URL>
+  key: <WPT_API_KEY>
+  response_format: json

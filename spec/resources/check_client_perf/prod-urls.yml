@@ -1,0 +1,7 @@
+urls:
+  sony_uk:
+    home_page:
+      url: http://www.sony.co.uk
+  amazon_in:
+    home_page:
+      url: http://amazon.in

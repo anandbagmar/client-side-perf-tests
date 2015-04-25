@@ -1,0 +1,17 @@
+urls:
+  sony_uk:
+    home_page:
+      expected_sla:
+        size: 25000000
+        overall_score: 70
+        num_requests: 65
+        page_load_time: 20000
+      expected_data:
+  amazon_in:
+    home_page:
+      expected_sla:
+        size: 25000000
+        overall_score: 70
+        num_requests: 65
+        page_load_time: 20000
+      expected_data:

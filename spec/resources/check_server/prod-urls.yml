@@ -1,0 +1,11 @@
+urls:
+  sony_uk:
+    home_page:
+      url: http://www.sony.co.uk
+      expected_data:
+        .container.st-header .l1: The Latest
+  amazon_in:
+    home_page:
+      url: http://www.amazon.in
+      expected_data:
+        a#nav-your-amazon: Your Amazon.in

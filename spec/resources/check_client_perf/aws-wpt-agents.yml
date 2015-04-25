@@ -1,0 +1,38 @@
+aws_wpt_agents:
+  eu-west-1:
+    ami_instance_id: ami-d0c76fa7
+    type: ec2
+    filter:
+      instance-id: ""
+  sa-east-1:
+    ami_instance_id: ami-eda611f0
+    type: ec2
+    filter:
+      instance-id: ""
+  us-east-1:
+    ami_instance_id: ami-561cb13e
+    type: ec2
+    filter:
+      instance-id: ""
+  us-west-1:
+    ami_instance_id: ami-dfc9dd9a
+    type: ec2
+    filter:
+      instance-id: ""
+  ap-southeast-1:
+    ami_instance_id: ami-7a2e0e28
+    type: ec2
+    filter:
+      instance-id: ""
+  ap-southeast-2:
+    ami_instance_id: ami-55a8c46f
+    type: ec2
+    filter:
+      instance-id: ""
+  eu-central-1:
+    ami_instance_id: ami-54291f49
+#    ami_instance_id_IE10: ami-56291f4b
+#    ami_instance_id_IE9: ami-50291f4d
+    type: vpc
+    filter:
+      domain: "vpc"
